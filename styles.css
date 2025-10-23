@@ -43,8 +43,15 @@ body {
 }
 
 .logo {
-    height: 56px;
-    margin-bottom: 6px
+    height: 84px;        /* было 56px — теперь больше */
+    margin-bottom: 10px; /* чуть больше отступа */
+}
+
+/* адаптивно под мобильные */
+@media (max-width: 720px) {
+    .logo {
+        height: 64px;
+    }
 }
 
 .title {
