@@ -43,14 +43,14 @@ body {
 }
 
 .logo {
-    height: 94px;        /* было 56px — теперь больше */
-    margin-bottom: 10px; /* чуть больше отступа */
+    height: 84px;        /* было 56px — теперь больше */
+    margin-bottom: -49px; /* чуть больше отступа */
 }
 
 /* адаптивно под мобильные */
-@media (max-width: 720px) {
+@media (max-width: 740px) {
     .logo {
-        height: 64px;
+        height: 195px;
     }
 }
 
